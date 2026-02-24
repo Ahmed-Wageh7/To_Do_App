@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { UserContext } from "../../Context/UserContext";
+import { UserContext } from "../../context/UserContext";
 
 export default function Navbar() {
   const { userData, userToken, setUserToken, setUserData } =
